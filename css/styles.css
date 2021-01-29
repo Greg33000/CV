@@ -1,11 +1,9 @@
 /* CSS de CV */
-body
-{
-	background: url("../img/Ville2.jpg") no-repeat fixed center;
-}
-#main
+
+#page_accueil
 {
 	text-align:center;
+	background: url("../img/Ville2.jpg") no-repeat fixed center;
 }
 #main a:hover
 {
@@ -88,3 +86,279 @@ body
 		display:none;
 	}
 }
+
+/* CSS de la page 2 */
+#page_cv
+{
+	background: url("../img/bureau.jpg") no-repeat scroll center;
+	display:flex;
+	flex-direction: column;
+}
+
+/* CSS du header */
+#photo2
+{
+	border-radius: 100%;
+	max-width: 100px;
+	max-height: 100px;
+	margin-left:5px;
+}
+#page_cv header
+{
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10px;
+	width: 900px;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items:center;
+	text-align: center;
+
+}
+#CV_icones
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items:center;
+	height:100px;
+	padding:0px 10px;
+}
+#CV_icones a, nav a
+{
+	font-size:25px;
+	color:grey;
+	text-decoration:none;
+
+}
+#CV_icones a:hover,nav a:hover
+{
+	color:blue;
+}
+#presentation
+{
+	margin:0px 0px 0px 10px;
+
+}
+#presentation h1
+{
+	font-size:100%;
+	border-bottom:3px solid grey;
+	margin:2px 0px;
+	padding: 0px 0px 2px 0px;
+}
+#presentation p
+{
+	margin:2px 0px;
+	font-style:italic;
+}
+
+#page_cv div
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items:flex-start;
+}
+
+	
+#page_cv nav
+{
+	background-color: rgba(255,255,255,0.5);
+	width: 100px;
+	margin-top:8px;
+	text-align:center;
+	border-radius: 10px;
+
+}
+
+
+#page_cv #contenu_infos
+{
+	
+	width: 792px;
+	margin-top:8px;
+	margin-left:8px;
+	text-align:center;
+	border-radius: 10px;
+	display:flex;
+	flex-direction: column;
+	/*height:500px;
+	overflow:auto;*/
+}
+.block_article
+{
+	background-color: rgba(255,255,255,0.5);
+	text-align:center;
+	border-radius: 10px;
+	display:flex;
+	flex-direction: column;
+	margin-bottom:8px;
+	padding-bottom:5px;
+	justify-content: space-around;
+	align-items:space-around;
+}
+
+.block_article p
+{
+	margin:2px 0px;
+}
+.block_article h1, .block_article h2
+{
+	margin:0px 0px;
+	text-align:center;
+	color:rgba(161,157,141,1);
+}
+.block_article .horizontal
+{
+	text-align:center;
+	display:flex;
+	flex-direction: column;
+	width: 50%;
+	margin:1px 5px 1px 5px;
+	align-items:center;
+}
+
+.horizontal2
+{
+	text-align:center;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 50%;
+	margin:1px 5px 1px 5px;
+	align-items:center;
+}
+.horizontal3
+{
+	text-align:center;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 50%;
+	margin:1px 5px 1px 5px;
+	margin:auto;
+	align-items:center;
+}
+
+
+.block_article .vertical
+{
+	text-align:center;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items:flex-start;
+	margin:0px 5px 0px 5px;
+}
+.block_article .vertical h1
+{
+	text-align:center;
+	width:100%;
+	padding-bottom: 2px;
+	border-bottom:3px solid grey;
+}
+.block_article h2
+{
+	text-align:center;
+	font-size:120%;
+	text-decoration:underline;
+
+}
+.block_article ul
+{
+	text-align:left;
+	margin:2px 2px 2px 2px;
+}
+
+/* simplification de l'indentation pour limiter la place prise */
+
+#organisation i:nth-child(1){color:blue;}
+#organisation i:nth-child(2){color:blue;}
+#organisation i:nth-child(3){color:blue;}
+#organisation i:nth-child(4){color:blue;}
+#organisation i:nth-child(5){color:grey;}
+
+#communication i:nth-child(1){color:blue;}
+#communication i:nth-child(2){color:blue;}
+#communication i:nth-child(3){color:blue;}
+#communication i:nth-child(4){color:grey;}
+#communication i:nth-child(5){color:grey;}
+
+#ponctualité i:nth-child(1){color:blue;}
+#ponctualité i:nth-child(2){color:blue;}
+#ponctualité i:nth-child(3){color:blue;}
+#ponctualité i:nth-child(4){color:blue;}
+#ponctualité i:nth-child(5){color:grey;}
+
+#créativité i:nth-child(1){color:blue;}
+#créativité i:nth-child(2){color:blue;}
+#créativité i:nth-child(3){color:blue;}
+#créativité i:nth-child(4){color:blue;}
+#créativité i:nth-child(5){color:grey;}
+
+#honnêteté i:nth-child(1){color:blue;}
+#honnêteté i:nth-child(2){color:blue;}
+#honnêteté i:nth-child(3){color:blue;}
+#honnêteté i:nth-child(4){color:blue;}
+#honnêteté i:nth-child(5){color:blue;}
+
+#équipe i:nth-child(1){color:blue;}
+#équipe i:nth-child(2){color:blue;}
+#équipe i:nth-child(3){color:blue;}
+#équipe i:nth-child(4){color:blue;}
+#équipe i:nth-child(5){color:grey;}
+
+#html_css i:nth-child(1){color:blue;}
+#html_css i:nth-child(2){color:blue;}
+#html_css i:nth-child(3){color:blue;}
+#html_css i:nth-child(4){color:grey;}
+#html_css i:nth-child(5){color:grey;}
+
+#versionning i:nth-child(1){color:blue;}
+#versionning i:nth-child(2){color:blue;}
+#versionning i:nth-child(3){color:grey;}
+#versionning i:nth-child(4){color:grey;}
+#versionning i:nth-child(5){color:grey;}
+
+#testing i:nth-child(1){color:blue;}
+#testing i:nth-child(2){color:grey;}
+#testing i:nth-child(3){color:grey;}
+#testing i:nth-child(4){color:grey;}
+#testing i:nth-child(5){color:grey;}
+
+#clarté i:nth-child(1){color:blue;}
+#clarté i:nth-child(2){color:blue;}
+#clarté i:nth-child(3){color:blue;}
+#clarté i:nth-child(4){color:grey;}
+#clarté i:nth-child(5){color:grey;}
+
+#rédaction i:nth-child(1){color:blue;}
+#rédaction i:nth-child(2){color:blue;}
+#rédaction i:nth-child(3){color:blue;}
+#rédaction i:nth-child(4){color:grey;}
+#rédaction i:nth-child(5){color:grey;}
+
+
+
+
+
+
+/* 
+
+test avec cases de couleur 
+
+#avatar
+{
+	background-color: blue;
+}
+#presentation
+{
+	background-color: green;
+}
+#CV_icones
+{
+	background-color: red;
+}
+*/
