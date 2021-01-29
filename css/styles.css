@@ -1,0 +1,49 @@
+/* CSS de CV */
+body
+{
+	background: url("../img/Ville2.jpg") no-repeat fixed center;
+	
+
+}
+#main
+{
+	text-align:center;
+	
+
+
+
+}
+#main2
+{
+
+	padding: 4.5em 3em 3em 3em ;
+	background: #ffffff;
+	border-radius: 4px;
+	cursor: default;
+	max-width: 100%;
+	opacity: 0.95;
+	position: relative;
+	text-align: center;
+	width: 20em;
+	display: inline-block;
+	
+
+	transform: translate(0%, 25%);
+	
+	
+}
+
+#photo 
+{
+	max-width: 50%;
+	max-height: 50%;
+}
+h1
+{
+	font-size: 200%;
+}
+.icons
+{
+	padding: 0em 0em 0em 0em;
+}
+
